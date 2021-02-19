@@ -90,6 +90,10 @@ h1, h2, h3 {
     font-style: italic;
 }
 
+.images {
+  display: flex;
+}
+
 .image img {
     float: right;
     display: flex;
@@ -97,6 +101,7 @@ h1, h2, h3 {
     padding: 20px;
     width: 100%;
     height: auto;
+    min-width: 250px;
 }
 
 hr {
